@@ -1,18 +1,62 @@
 <codehints xmlns:MMString="http://www.adobe.com/schemes/data/string/">
 <menugroup MMString:name="Titanium Codehints" id="CodeHints_Titanium" enabled="true">
   <description>
-  <![CDATA[ Keywords for the <a href="http://www.appcelerator.com/">Appcelerator Titanium</a> Framework. ]]>
+  <![CDATA[Keywords for the <a href="javascript:alert('Appcelerator Titanium Mobile lets you use web technologies,\r\nopen source and cloud computing to build native apps\r\nfor iPhone and Android.\r\n\r\nFor more information, go to http://www.appcelerator.com/');">Appcelerator Titanium</a> Framework.]]>
   </description>
   <function pattern="Titanium" source="Titanium" displayrestriction="JavaScript" icon="shared/mm/images/hintPackage.png"/>
   <menu pattern="Titanium." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="userAgent" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="version" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="include" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="API" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Accelerometer" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Analytics" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Android" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="App" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Contacts" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Database" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Facebook" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Filesystem" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Geolocation" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Gesture" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Locale" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Map" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Media" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Network" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Platform" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="UI" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Utils" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="XML" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Yahoo" icon="shared/mm/images/hintPackage.png"/>
   </menu>
   <menu pattern="Titanium.API." casesensitive="true" displayrestriction="JavaScript">
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="debug" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="error" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="info" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="log" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="warn" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.Accelerometer." casesensitive="true" displayrestriction="JavaScript">
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.Analytics." casesensitive="true" displayrestriction="JavaScript">
+	<menuitem label="addEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="featureEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="navEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="settingsEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="timedEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="userEvent" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.Android." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="ACTION_AIRPLANE_MODE_CHANGED" icon="shared/mm/images/hintProperty.png"/>
@@ -173,12 +217,36 @@
 	<menuitem label="SCREEN_ORIENTATION_UNSPECIFIED" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="SCREEN_ORIENTATION_USER" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="URI_INTENT_SCHEME" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createIntent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createIntentChooser" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createService" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createServiceIntent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="isServiceRunning" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="startService" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="stopService" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="Activity" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Calendar" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Intent" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Menu" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="MenuItem" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="PendingIntent" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="R" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Service" icon="shared/mm/images/hintPackage.png"/>
   </menu>
   <menu pattern="Titanium.Android.Activity." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="intent" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="onCreateOptionsMenu" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="onPrepareOptionsMenu" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="requestedOrientation" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="getIntent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getString" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setRequestedOrientation" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setResult" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="startActivity" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="startActivityForResult" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.Android.Calendar." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="METHOD_ALERT" icon="shared/mm/images/hintProperty.png"/>
@@ -198,6 +266,18 @@
 	<menuitem label="allAlerts" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="allCalendars" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="selectableCalendars" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createAlert" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createCalendar" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createReminder" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getCalendarById" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="Alert" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Calendar" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Event" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Reminder" icon="shared/mm/images/hintPackage.png"/>
   </menu>
   <menu pattern="Titanium.Android.Calendar.Alert." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="alarmTime" icon="shared/mm/images/hintProperty.png"/>
@@ -213,6 +293,12 @@
 	<menuitem label="id" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="name" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="selected" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="createEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getEventById" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getEventsBetweenDates" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getEventsInDate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getEventsInMonth" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getEventsInYear" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.Android.Calendar.Event." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="alerts" icon="shared/mm/images/hintProperty.png"/>
@@ -229,6 +315,10 @@
 	<menuitem label="status" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="title" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="visibility" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="createAlert" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createReminder" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getExtendedProperty" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setExtendedProperty" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.Android.Calendar.Reminder." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="id" icon="shared/mm/images/hintProperty.png"/>
@@ -242,9 +332,29 @@
 	<menuitem label="packageName" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="type" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="url" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="addCategory" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getBooleanExtra" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getData" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getDoubleExtra" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getIntExtra" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getLongExtra" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getStringExtra" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hasExtra" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="putExtra" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.Android.Menu." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="items" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="add" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="clear" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="close" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="findItem" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getItem" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hasVisibleItems" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeGroup" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeItem" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setGroupEnabled" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setGroupVisible" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="size" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.Android.MenuItem." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="enabled" icon="shared/mm/images/hintProperty.png"/>
@@ -254,6 +364,18 @@
 	<menuitem label="title" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="titleCondensed" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="visible" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="getCondensedTitle" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getGroupId" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getItemId" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getOrder" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getTitle" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="isEnabled" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="isVisible" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setCondensedTitle" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setEnabled" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setIcon" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setTitle" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setVisible" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.Android.PendingIntent." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="activity" icon="shared/mm/images/hintProperty.png"/>
@@ -278,6 +400,8 @@
   <menu pattern="Titanium.Android.Service." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="intent" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="serviceInstanceId" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="start" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="stop" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.App." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="copyright" icon="shared/mm/images/hintProperty.png"/>
@@ -291,28 +415,96 @@
 	<menuitem label="publisher" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="url" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="version" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getArguments" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="Android" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Properties" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="iOS" icon="shared/mm/images/hintPackage.png"/>
   </menu>
   <menu pattern="Titanium.App.Android." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="R" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="R" icon="shared/mm/images/hintPackage.png"/>
   </menu>
   <menu pattern="Titanium.App.Android.R." casesensitive="true" displayrestriction="JavaScript">
   </menu>
   <menu pattern="Titanium.App.Properties." casesensitive="true" displayrestriction="JavaScript">
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getBool" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getDouble" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getInt" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getList" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getString" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hasProperty" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="listProperties" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeProperty" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setBool" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setDouble" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setInt" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setList" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setString" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.App.iOS." casesensitive="true" displayrestriction="JavaScript">
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="cancelAllLocalNotifications" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="cancelLocalNotification" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createBackgroundService" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createLocalNotification" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="registerBackgroundService" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="scheduleLocalNotification" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="BackgroundService" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="LocalNotification" icon="shared/mm/images/hintPackage.png"/>
   </menu>
   <menu pattern="Titanium.App.iOS.BackgroundService." casesensitive="true" displayrestriction="JavaScript">
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="stop" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="unregister" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.App.iOS.LocalNotification." casesensitive="true" displayrestriction="JavaScript">
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="cancel" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.Contacts." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="CONTACTS_KIND_ORGANIZATION" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="CONTACTS_KIND_PERSON" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="CONTACTS_SORT_FIRST_NAME" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="CONTACTS_SORT_LAST_NAME" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createGroup" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createPerson" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getAllGroups" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getAllPeople" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getGroupByID" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getPeopleWithName" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getPersonByID" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeGroup" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removePerson" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="revert" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="save" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="showContacts" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="Group" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Person" icon="shared/mm/images/hintPackage.png"/>
   </menu>
   <menu pattern="Titanium.Contacts.Group." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="name" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="add" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="members" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="remove" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="sortedMembers" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.Contacts.Person." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="URL" icon="shared/mm/images/hintProperty.png"/>
@@ -343,21 +535,48 @@
 	<menuitem label="suffix" icon="shared/mm/images/hintProperty.png"/>
   </menu>
   <menu pattern="Titanium.Database." casesensitive="true" displayrestriction="JavaScript">
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="install" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="open" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="DB" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="ResultSet" icon="shared/mm/images/hintPackage.png"/>
   </menu>
   <menu pattern="Titanium.Database.DB." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="lastInsertRowId" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="name" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="rowsAffected" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="close" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="execute" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="remove" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.Database.ResultSet." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="rowCount" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="validRow" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="close" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="field" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fieldByName" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fieldCount" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fieldName" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="isValidRow" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.Facebook." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="loggedIn" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="permissions" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="session" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="userId" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createLoginButton" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="execute" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hasPermission" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="isLoggedIn" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="publishStream" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="query" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="requestPermission" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="LoginButton" icon="shared/mm/images/hintPackage.png"/>
   </menu>
   <menu pattern="Titanium.Facebook.LoginButton." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="anchorPoint" icon="shared/mm/images/hintProperty.png"/>
@@ -395,6 +614,15 @@
 	<menuitem label="visible" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="width" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="zIndex" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="add" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="animate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hide" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="remove" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="show" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="toImage" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.Filesystem." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="MODE_APPEND" icon="shared/mm/images/hintProperty.png"/>
@@ -406,8 +634,45 @@
 	<menuitem label="resourcesDirectory" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="separator" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="tempDirectory" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createFile" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createTempDirectory" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createTempFile" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getFile" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="isExteralStoragePresent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="File" icon="shared/mm/images/hintPackage.png"/>
   </menu>
   <menu pattern="Titanium.Filesystem.File." casesensitive="true" displayrestriction="JavaScript">
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createDirectory" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createFile" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createTimestamp" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="deleteDirectory" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="deleteFile" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="executable" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="exists" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="extension" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getDirectoryListing" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getParent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hidden" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="modificationTimestamp" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="move" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="name" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="nativePath" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="read" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="readonly" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="rename" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setExecutable" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setHidden" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setReadonly" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="spaceAvailable" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="symbolicLink" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="write" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="writeable" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.Geolocation." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="ACCURACY_BEST" icon="shared/mm/images/hintProperty.png"/>
@@ -426,18 +691,40 @@
 	<menuitem label="preferredProvider" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="purpose" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="showCalibration" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setShowCalibration" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.Gesture." casesensitive="true" displayrestriction="JavaScript">
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.Locale." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="currentCountry" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="currentLanguage" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="currentLocale" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="formatTelephoneNumber" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getCurrencyCode" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getCurrencySymbol" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getLocaleCurrencySymbol" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getString" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.Map." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="HYBRID_TYPE" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="SATELLITE_TYPE" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="STANDARD_TYPE" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createAnnotation" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createMapView" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="Annotation" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="MapView" icon="shared/mm/images/hintPackage.png"/>
   </menu>
   <menu pattern="Titanium.Map.Annotation." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="animate" icon="shared/mm/images/hintProperty.png"/>
@@ -451,6 +738,9 @@
 	<menuitem label="subtitleid" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="title" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="titleid" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.Map.MapView." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="anchorPoint" icon="shared/mm/images/hintProperty.png"/>
@@ -495,6 +785,27 @@
 	<menuitem label="visible" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="width" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="zIndex" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="add" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addAnnotation" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addAnnotations" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addRoute" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="animate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="deselectAnnotation" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hide" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="remove" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeAllAnnotations" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeAnnotation" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeAnnotations" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeRoute" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="selectAnnotation" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setLocation" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setMapType" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="show" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="toImage" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="zoom" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.Media." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="AUDIO_FILEFORMAT_3GP2" icon="shared/mm/images/hintProperty.png"/>
@@ -602,6 +913,34 @@
 	<menuitem label="peakMicrophonePower" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="systemMusicPlayer" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="volume" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="beep" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createAudioPlayer" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createAudioRecorder" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createItem" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createMusicPlayer" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createSound" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createVideoPlayer" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hideCamera" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hideMusicLibrary" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="isMediaTypeSupported" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="openPhotoGallery" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="saveToPhotoGallery" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="showCamera" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="showMusicLibrary" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="startMicrophoneMonitor" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="stopMicrophoneMonitor" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="takePicture" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="takeScreenshot" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="vibrate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="AudioPlayer" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="AudioRecorder" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Item" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="MusicPlayer" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Sound" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="VideoPlayer" icon="shared/mm/images/hintPackage.png"/>
   </menu>
   <menu pattern="Titanium.Media.AudioPlayer." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="STATE_BUFFERING" icon="shared/mm/images/hintProperty.png"/>
@@ -622,6 +961,15 @@
 	<menuitem label="state" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="url" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="waiting" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="pause" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setPaused" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setUrl" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="start" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="stateDescription" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="stop" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.Media.AudioRecorder." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="compression" icon="shared/mm/images/hintProperty.png"/>
@@ -629,6 +977,13 @@
 	<menuitem label="paused" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="recording" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="stopped" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="pause" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="resume" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="start" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="stop" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.Media.Item." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="albumArtist" icon="shared/mm/images/hintProperty.png"/>
@@ -658,6 +1013,16 @@
 	<menuitem label="repeatMode" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="shuffleMode" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="volume" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="pause" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="play" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="seekBackward" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="seekForward" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setQueue" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="skipToBeginning" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="skipToNext" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="skipToPrevious" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="stop" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="stopSeeking" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.Media.Sound." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="allowBackground" icon="shared/mm/images/hintProperty.png"/>
@@ -668,6 +1033,23 @@
 	<menuitem label="time" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="url" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="volume" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getTime" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getVolume" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="isLooping" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="isPaused" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="isPlaying" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="pause" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="play" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="release" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="reset" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setLooping" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setPaused" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setTime" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setVolume" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="stop" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.Media.VideoPlayer." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="anchorPoint" icon="shared/mm/images/hintProperty.png"/>
@@ -725,6 +1107,25 @@
 	<menuitem label="visible" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="width" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="zIndex" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="add" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="animate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="cancelAllThumbnailImageRequests" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hide" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="pause" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="play" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="release" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="remove" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="requestThumbnailImagesAtTimes" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setBackgroundView" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setMedia" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setUrl" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="show" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="stop" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="thumbnailImageAtTime" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="toImage" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.Network." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="INADDR_ANY" icon="shared/mm/images/hintProperty.png"/>
@@ -745,11 +1146,29 @@
 	<menuitem label="remoteDeviceUUID" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="remoteNotificationTypes" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="remoteNotificationsEnabled" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="addConnectivityListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createBonjourBrowser" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createBonjourService" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createHTTPClient" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createTCPSocket" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="decodeURIComponent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="encodeURIComponent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="registerForPushNotifications" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeConnectivityListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="BonjourBrowser" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="BonjourService" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="HTTPClient" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="TCPSocket" icon="shared/mm/images/hintPackage.png"/>
   </menu>
   <menu pattern="Titanium.Network.BonjourBrowser." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="domain" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="isSearching" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="serviceType" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="search" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="stopSearch" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.Network.BonjourService." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="domain" icon="shared/mm/images/hintProperty.png"/>
@@ -757,6 +1176,9 @@
 	<menuitem label="name" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="socket" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="type" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="publish" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="resolve" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="stop" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.Network.HTTPClient." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="DONE" icon="shared/mm/images/hintProperty.png"/>
@@ -780,6 +1202,12 @@
 	<menuitem label="status" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="timeout" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="validatesSecureCertificate" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="abort" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getResponseHeader" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="open" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="send" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setRequestHeader" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setTimeout" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.Network.TCPSocket." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="hostName" icon="shared/mm/images/hintProperty.png"/>
@@ -787,6 +1215,10 @@
 	<menuitem label="mode" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="port" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="stripTerminator" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="close" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="connect" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="listen" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="write" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.Platform." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="BATTERY_STATE_CHARGING" icon="shared/mm/images/hintProperty.png"/>
@@ -811,6 +1243,13 @@
 	<menuitem label="processorCount" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="username" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="version" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="canOpenURL" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createUUID" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="openURL" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="DisplayCaps" icon="shared/mm/images/hintPackage.png"/>
   </menu>
   <menu pattern="Titanium.Platform.DisplayCaps." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="density" icon="shared/mm/images/hintProperty.png"/>
@@ -904,10 +1343,104 @@
 	<menuitem label="TEXT_VERTICAL_ALIGNMENT_TOP" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="UNKNOWN" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="UPSIDE_PORTRAIT" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="create2DMatrix" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="create3DMatrix" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createActivityIndicator" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createAlertDialog" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createAnimation" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createButton" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createButtonBar" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createCoverFlowView" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createDashboardItem" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createDashboardView" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createEmailDialog" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createImageView" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createLabel" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createOptionDialog" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createPicker" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createPickerColumn" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createPickerRow" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createProgressBar" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createScrollView" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createScrollableView" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createSearchBar" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createSlider" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createSwitch" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createTab" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createTabGroup" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createTabbedBar" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createTableView" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createTableViewRow" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createTableViewSection" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createTextArea" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createTextField" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createToolbar" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createView" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createWebView" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createWindow" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="2DMatrix" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="3DMatrix" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="ActivityIndicator" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="AlertDialog" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Android" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Animation" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Button" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="ButtonBar" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Clipboard" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="CoverFlowView" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="DashboardItem" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="DashboardView" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="EmailDialog" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="ImageView" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Label" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="OptionDialog" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Picker" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="PickerColumn" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="PickerRow" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="ProgressBar" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="ScrollView" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="ScrollableView" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="SearchBar" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Slider" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Switch" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Tab" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="TabGroup" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="TabbedBar" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="TableView" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="TableViewRow" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="TableViewSection" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="TextArea" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="TextField" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Toolbar" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="View" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="WebView" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="Window" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="iOS" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="iPad" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="iPhone" icon="shared/mm/images/hintPackage.png"/>
   </menu>
   <menu pattern="Titanium.UI.2DMatrix." casesensitive="true" displayrestriction="JavaScript">
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="invert" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="multiply" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="rotate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="scale" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="translate" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.3DMatrix." casesensitive="true" displayrestriction="JavaScript">
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="invert" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="multiply" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="rotate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="scale" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="translate" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.ActivityIndicator." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="color" icon="shared/mm/images/hintProperty.png"/>
@@ -915,6 +1448,8 @@
 	<menuitem label="message" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="messageid" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="style" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="hide" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="show" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.AlertDialog." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="buttonNames" icon="shared/mm/images/hintProperty.png"/>
@@ -922,6 +1457,11 @@
 	<menuitem label="message" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="messageid" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="title" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hide" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="show" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.Android." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="LINKIFY_ALL" icon="shared/mm/images/hintProperty.png"/>
@@ -941,6 +1481,11 @@
 	<menuitem label="SOFT_KEYBOARD_SHOW_ON_FOCUS" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="SWITCH_STYLE_CHECKBOX" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="SWITCH_STYLE_TOGGLEBUTTON" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hideSoftKeyboard" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="openPreferences" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.Animation." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="autoreverse" icon="shared/mm/images/hintProperty.png"/>
@@ -963,6 +1508,9 @@
 	<menuitem label="visible" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="width" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="zIndex" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.Button." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="anchorPoint" icon="shared/mm/images/hintProperty.png"/>
@@ -1008,6 +1556,15 @@
 	<menuitem label="visible" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="width" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="zIndex" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="add" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="animate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hide" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="remove" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="show" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="toImage" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.ButtonBar." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="anchorPoint" icon="shared/mm/images/hintProperty.png"/>
@@ -1048,8 +1605,28 @@
 	<menuitem label="visible" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="width" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="zIndex" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="add" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="animate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hide" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="remove" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="show" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="toImage" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.Clipboard." casesensitive="true" displayrestriction="JavaScript">
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="clearData" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="clearText" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getData" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getText" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hasData" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hasText" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setData" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setText" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.CoverFlowView." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="anchorPoint" icon="shared/mm/images/hintProperty.png"/>
@@ -1089,12 +1666,25 @@
 	<menuitem label="visible" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="width" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="zIndex" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="add" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="animate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hide" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="remove" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setImage" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="show" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="toImage" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.DashboardItem." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="badge" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="canDelete" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="image" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="selectedImage" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.DashboardView." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="anchorPoint" icon="shared/mm/images/hintProperty.png"/>
@@ -1134,6 +1724,17 @@
 	<menuitem label="width" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="wobble" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="zIndex" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="add" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="animate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hide" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="remove" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="show" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="startEditing" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="stopEditing" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="toImage" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.EmailDialog." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="CANCELLED" icon="shared/mm/images/hintProperty.png"/>
@@ -1147,6 +1748,12 @@
 	<menuitem label="messageBody" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="subject" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="toRecipients" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="addAttachment" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="isSupported" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="open" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.ImageView." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="anchorPoint" icon="shared/mm/images/hintProperty.png"/>
@@ -1196,6 +1803,19 @@
 	<menuitem label="visible" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="width" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="zIndex" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="add" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="animate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hide" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="pause" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="remove" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="show" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="start" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="stop" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="toBlob" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="toImage" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.Label." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="anchorPoint" icon="shared/mm/images/hintProperty.png"/>
@@ -1250,6 +1870,15 @@
 	<menuitem label="width" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="wordWrap" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="zIndex" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="add" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="animate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hide" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="remove" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="show" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="toImage" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.OptionDialog." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="androidView" icon="shared/mm/images/hintProperty.png"/>
@@ -1258,6 +1887,7 @@
 	<menuitem label="options" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="title" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="titleid" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="show" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.Picker." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="columns" icon="shared/mm/images/hintProperty.png"/>
@@ -1270,6 +1900,13 @@
 	<menuitem label="useSpinner" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="value" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="visibleItems" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="add" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="getSelectedRow" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="reloadColumn" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setSelectedRow" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.PickerColumn." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="anchorPoint" icon="shared/mm/images/hintProperty.png"/>
@@ -1309,6 +1946,17 @@
 	<menuitem label="visible" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="width" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="zIndex" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="add" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addRow[object]" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="animate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hide" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="remove" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeRow[object]" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="show" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="toImage" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.PickerRow." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="anchorPoint" icon="shared/mm/images/hintProperty.png"/>
@@ -1349,6 +1997,15 @@
 	<menuitem label="visible" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="width" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="zIndex" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="add" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="animate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hide" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="remove" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="show" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="toImage" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.ProgressBar." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="color" icon="shared/mm/images/hintProperty.png"/>
@@ -1408,6 +2065,16 @@
 	<menuitem label="width" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="zIndex" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="zoomScale" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="add" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="animate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hide" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="remove" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="scrollTo" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="show" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="toImage" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.ScrollableView." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="anchorPoint" icon="shared/mm/images/hintProperty.png"/>
@@ -1452,6 +2119,18 @@
 	<menuitem label="visible" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="width" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="zIndex" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="add" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addView" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="animate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hide" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="remove" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeView" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="scrollToView" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="show" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="toImage" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.SearchBar." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="anchorPoint" icon="shared/mm/images/hintProperty.png"/>
@@ -1499,6 +2178,17 @@
 	<menuitem label="visible" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="width" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="zIndex" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="add" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="animate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="blur" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="focus" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hide" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="remove" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="show" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="toImage" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.Slider." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="anchorPoint" icon="shared/mm/images/hintProperty.png"/>
@@ -1554,6 +2244,15 @@
 	<menuitem label="visible" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="width" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="zIndex" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="add" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="animate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hide" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="remove" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="show" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="toImage" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.Switch." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="anchorPoint" icon="shared/mm/images/hintProperty.png"/>
@@ -1597,6 +2296,15 @@
 	<menuitem label="visible" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="width" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="zIndex" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="add" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="animate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hide" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="remove" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="show" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="toImage" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.Tab." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="anchorPoint" icon="shared/mm/images/hintProperty.png"/>
@@ -1638,6 +2346,15 @@
 	<menuitem label="width" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="window" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="zIndex" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="add" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="animate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hide" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="remove" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="show" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="toImage" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.TabGroup." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="activeTab" icon="shared/mm/images/hintProperty.png"/>
@@ -1680,6 +2397,20 @@
 	<menuitem label="visible" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="width" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="zIndex" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="add" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addTab" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="animate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="close" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hide" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="open" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="remove" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeTab" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setActiveTab" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="show" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="toImage" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.TabbedBar." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="anchorPoint" icon="shared/mm/images/hintProperty.png"/>
@@ -1720,6 +2451,15 @@
 	<menuitem label="visible" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="width" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="zIndex" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="add" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="animate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hide" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="remove" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="show" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="toImage" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.TableView." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="allowsSelection" icon="shared/mm/images/hintProperty.png"/>
@@ -1778,6 +2518,25 @@
 	<menuitem label="visible" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="width" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="zIndex" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="add" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="animate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="appendRow" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="deleteRow" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="deselectRow" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hide" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="insertRowAfter" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="insertRowBefore" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="remove" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="scrollToIndex" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="scrollToTop" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="selectRow" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setData" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="show" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="toImage" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="updateRow" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.TableViewRow." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="anchorPoint" icon="shared/mm/images/hintProperty.png"/>
@@ -1829,6 +2588,15 @@
 	<menuitem label="visible" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="width" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="zIndex" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="add" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="animate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hide" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="remove" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="show" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="toImage" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.TableViewSection." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="anchorPoint" icon="shared/mm/images/hintProperty.png"/>
@@ -1871,6 +2639,15 @@
 	<menuitem label="visible" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="width" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="zIndex" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="add" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="animate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hide" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="remove" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="show" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="toImage" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.TextArea." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="anchorPoint" icon="shared/mm/images/hintProperty.png"/>
@@ -1915,6 +2692,18 @@
 	<menuitem label="visible" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="width" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="zIndex" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="add" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="animate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="blur" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="focus" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hasText" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hide" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="remove" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="show" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="toImage" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.TextField." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="anchorPoint" icon="shared/mm/images/hintProperty.png"/>
@@ -1973,6 +2762,18 @@
 	<menuitem label="visible" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="width" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="zIndex" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="add" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="animate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="blur" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="focus" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hasText" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hide" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="remove" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="show" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="toImage" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.Toolbar." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="anchorPoint" icon="shared/mm/images/hintProperty.png"/>
@@ -2010,6 +2811,15 @@
 	<menuitem label="visible" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="width" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="zIndex" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="add" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="animate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hide" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="remove" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="show" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="toImage" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.View." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="anchorPoint" icon="shared/mm/images/hintProperty.png"/>
@@ -2047,6 +2857,15 @@
 	<menuitem label="visible" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="width" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="zIndex" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="add" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="animate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hide" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="remove" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="show" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="toImage" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.WebView." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="anchorPoint" icon="shared/mm/images/hintProperty.png"/>
@@ -2089,6 +2908,24 @@
 	<menuitem label="visible" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="width" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="zIndex" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="add" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="animate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="canGoBack" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="canGoForward" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="evalJS" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="goBack" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="goForward" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hide" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="reload" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="remove" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="repaint" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setBasicAuthentication" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="show" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="stopLoading" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="toImage" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.Window." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="anchorPoint" icon="shared/mm/images/hintProperty.png"/>
@@ -2148,8 +2985,24 @@
 	<menuitem label="visible" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="width" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="zIndex" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="add" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="animate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="close" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hide" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="open" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="remove" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="show" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="toImage" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.iOS." casesensitive="true" displayrestriction="JavaScript">
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createAdView" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="AdView" icon="shared/mm/images/hintPackage.png"/>
   </menu>
   <menu pattern="Titanium.UI.iOS.AdView." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="SIZE_320x50" icon="shared/mm/images/hintProperty.png"/>
@@ -2189,6 +3042,16 @@
 	<menuitem label="visible" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="width" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="zIndex" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="add" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="animate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="cancelAction" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hide" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="remove" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="show" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="toImage" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.iPad." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="POPOVER_ARROW_DIRECTION_ANY" icon="shared/mm/images/hintProperty.png"/>
@@ -2197,6 +3060,13 @@
 	<menuitem label="POPOVER_ARROW_DIRECTION_RIGHT" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="POPOVER_ARROW_DIRECTION_UNKNOWN" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="POPOVER_ARROW_DIRECTION_UP" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createPopover" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createSplitWindow" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="Popover" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="SplitWindow" icon="shared/mm/images/hintPackage.png"/>
   </menu>
   <menu pattern="Titanium.UI.iPad.Popover." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="anchorPoint" icon="shared/mm/images/hintProperty.png"/>
@@ -2237,6 +3107,17 @@
 	<menuitem label="visible" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="width" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="zIndex" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="add" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="animate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hide" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="remove" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setHeight" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="setWidth" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="show" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="toImage" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.iPad.SplitWindow." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="anchorPoint" icon="shared/mm/images/hintProperty.png"/>
@@ -2276,6 +3157,15 @@
 	<menuitem label="visible" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="width" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="zIndex" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="add" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="animate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hide" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="remove" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="show" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="toImage" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.iPhone." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="MODAL_PRESENTATION_CURRENT_CONTEXT" icon="shared/mm/images/hintProperty.png"/>
@@ -2290,6 +3180,26 @@
 	<menuitem label="appSupportsShakeToEdit" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="statusBarHidden" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="statusBarStyle" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="createNavigationGroup" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hideStatusBar" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="showStatusBar" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="ActivityIndicatorStyle" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="AnimationStyle" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="NavigationGroup" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="ProgressBarStyle" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="RowAnimationStyle" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="ScrollIndicatorStyle" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="StatusBar" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="SystemButton" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="SystemButtonStyle" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="SystemIcon" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="TableViewCellSelectionStyle" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="TableViewScrollPosition" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="TableViewSeparatorStyle" icon="shared/mm/images/hintPackage.png"/>
+	<menuitem label="TableViewStyle" icon="shared/mm/images/hintPackage.png"/>
   </menu>
   <menu pattern="Titanium.UI.iPhone.ActivityIndicatorStyle." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="BIG" icon="shared/mm/images/hintProperty.png"/>
@@ -2339,6 +3249,17 @@
 	<menuitem label="visible" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="width" icon="shared/mm/images/hintProperty.png"/>
 	<menuitem label="zIndex" icon="shared/mm/images/hintProperty.png"/>
+	<menuitem label="add" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="animate" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="close" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="hide" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="open" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="remove" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="show" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="toImage" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.UI.iPhone.ProgressBarStyle." casesensitive="true" displayrestriction="JavaScript">
 	<menuitem label="BAR" icon="shared/mm/images/hintProperty.png"/>
@@ -2430,12 +3351,28 @@
 	<menuitem label="PLAIN" icon="shared/mm/images/hintProperty.png"/>
   </menu>
   <menu pattern="Titanium.Utils." casesensitive="true" displayrestriction="JavaScript">
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="base64decode" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="base64encode" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="md5HexDigest" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
   </menu>
   <menu pattern="Titanium.XML." casesensitive="true" displayrestriction="JavaScript">
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="parseString" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="serializeToString" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="DOMDocument" icon="shared/mm/images/hintPackage.png"/>
   </menu>
   <menu pattern="Titanium.XML.DOMDocument." casesensitive="true" displayrestriction="JavaScript">
   </menu>
   <menu pattern="Titanium.Yahoo." casesensitive="true" displayrestriction="JavaScript">
+	<menuitem label="addEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="fireEvent" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="removeEventListener" icon="shared/mm/images/hintFunction.png"/>
+	<menuitem label="yql" icon="shared/mm/images/hintFunction.png"/>
   </menu>
 </menugroup>
 </codehints>
